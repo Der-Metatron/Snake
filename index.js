@@ -37,7 +37,7 @@ function draw() {
 
     snake.forEach(part => add(part.x, part.y));
 
-    ctx.fillStyle = 'yellow';
+    ctx.fillStyle = 'red';
     add(food.x, food.y); // Food
 
     requestAnimationFrame(draw);
