@@ -1,0 +1,10 @@
+body {background-color: bisque;}
+
+h1 {text-align: center;
+    text-decoration: underline;}
+
+/* #canvas {margin: 34rem;} */
+
+#hilfe {text-align: right;
+        margin: 2rem;
+        padding: 3rem;}
