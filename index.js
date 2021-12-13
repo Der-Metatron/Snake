@@ -374,7 +374,7 @@ function draw() {
 // spawns new food at random position
 function spawanfood(what) {
 	// creates new random position
-	var getPosition = function() {
+	let getPosition = function() {
 		// creates random x
 		var xpos = Math.floor(Math.random() * WIDTH / SECTION);
 		// creates random y
