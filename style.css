@@ -1,75 +1,63 @@
 body {background-color: bisque;
-      background-image: url(./gears.jpeg); 
-    /*  display: flex; */ 
-   
-     
-     }
-     
+  background-image: url(./gears.jpeg); 
+/*  display: flex; */ 
+
+ 
+ }
+ 
 /* Überschrift */
 h1 {text-align: center;
-    font-size: 2rem;
-    color: chartreuse;
-    text-decoration: underline;
-    font-family: 'Alfa Slab One', cursive;
+font-size: 2rem;
+color: chartreuse;
+text-decoration: underline;
+font-family: 'Alfa Slab One', cursive;
 
-    font-family: 'Atomic Age', cursive;
+font-family: 'Atomic Age', cursive;
 
-    font-family: 'Aubrey', cursive;
+font-family: 'Aubrey', cursive;
 
-    font-family: 'Orbitron', sans-serif;
-    }
+font-family: 'Orbitron', sans-serif;
+}
 /* Tastaturbelegung */
 #hilfe {color: chartreuse;
-        text-align: right;
-        margin: 2rem;
-        padding: 3rem;
-       }
+    text-align: right;
+    margin: 2rem;
+    padding: 3rem;
+   }
 
 /* Highscore */
 #highscore {color: chartreuse;
-           
-           }
+       
+       }
 
 /* Button */
-    button {
-        text-align: center;
-        padding: 15px; /* zwischen abstände */
-        color: rgb(10, 8, 8);
-        background-color: rgb(0, 0, 0);
-        box-shadow: 0px 17px 10px -7px chartreuse; /* Schatten */
-        border: solid 3px; color: rgb(255, 255, 255); /* Rahmen */
-        border-radius: 10px; /* Rahmen Größe */
-        font-size: 25px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Schrift Art */
-        transition: ease-in all 300ms; /* Weiche bewegung */
-         } 
-         
-     button:hover {
-         color: rgb(255, 255, 255);
-         background-color: rgb(255, 30, 0);
-         transform: translate(0px, -10px);
-         box-shadow: 0px 30px 15px -10px rgba(0,0,0,0,2) 
+button {
+    text-align: center;
+    padding: 15px; /* zwischen abstände */
+    color: rgb(10, 8, 8);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 17px 10px -7px chartreuse; /* Schatten */
+    border: solid 3px; color: rgb(255, 255, 255); /* Rahmen */
+    border-radius: 10px; /* Rahmen Größe */
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Schrift Art */
+    transition: ease-in all 300ms; /* Weiche bewegung */
      } 
+     
+ button:hover {
+     color: rgb(255, 255, 255);
+     background-color: rgb(255, 30, 0);
+     transform: translate(0px, -10px);
+     box-shadow: 0px 30px 15px -10px rgba(0,0,0,0,2) 
+ } 
 
 #spiel {text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        } 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
 
 .canvas {border:solid 4rem; 
-        border: solid 3px; color: rgb(255, 255, 255); /* Rahmen */}
+    border: solid 3px; color: rgb(255, 255, 255); /* Rahmen */}
 
-        #highscore {
-                display: flex;
-              }
-        
-              .hilfe {
-                flex: 1 1 auto;
-              }
-        
-              .highscore {
-                flex: 1 1 auto;
-              }
-        
-        
+   

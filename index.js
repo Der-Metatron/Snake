@@ -144,3 +144,4 @@ function keyDown(e) {
         direction = 'DOWN';
     }
 }
+
