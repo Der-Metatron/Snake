@@ -1,7 +1,13 @@
-body {background-color: bisque;}
+body {background-color: bisque;
+      background-image: url(./gears.jpeg); 
+       
+      display: grid;
+     }
+     
 
 h1 {text-align: center;
     font-size: 2rem;
+    color: chartreuse;
     text-decoration: underline;
     font-family: 'Alfa Slab One', cursive;
 
@@ -11,14 +17,14 @@ h1 {text-align: center;
 
     font-family: 'Orbitron', sans-serif;
     }
-
+#hilfe {color: chartreuse;}
     button {
         text-align: center;
         padding: 15px; /* zwischen abstände */
-        color: rgb(255, 0, 0);
-        background-color: rgb(209, 199, 199);
+        color: rgb(10, 8, 8);
+        background-color: rgb(0, 0, 0);
         box-shadow: 0px 17px 10px -7px rgb(255, 0, 0); /* Schatten */
-        border: solid 3px; color: rgb(0, 0, 0); /* Rahmen */
+        border: solid 3px; color: rgb(255, 255, 255); /* Rahmen */
         border-radius: 10px; /* Rahmen Größe */
         font-size: 25px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Schrift Art */
@@ -27,7 +33,7 @@ h1 {text-align: center;
          
      button:hover {
          color: rgb(255, 255, 255);
-         background-color: rgb(0, 0, 0);
+         background-color: rgb(209, 180, 16);
          transform: translate(0px, -10px);
          box-shadow: 0px 30px 15px -10px rgba(0,0,0,0,2) 
      } 
