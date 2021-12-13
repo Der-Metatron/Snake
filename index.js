@@ -20,7 +20,14 @@ setInterval(gameLoop, 200);
 document.addEventListener('keydown', keyDown);
 
 
-draw();
+/* draw(); */
+function anfang() {
+    draw();
+}
+let stopp = false;
+function anhalt(){
+stopp = true;
+}
 
 function draw() {
     ctx.fillStyle = 'black';
@@ -82,8 +89,10 @@ function shiftSnake() {
         part.y = lastPart.y;
     }
 }
-
+/* GAMELOOP */
 function gameLoop() {
+   
+  
     testGameOver();
     if (foodCollected) {
         snake = [{

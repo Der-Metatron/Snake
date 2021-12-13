@@ -7,21 +7,30 @@
     <meta name="Metatron" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6f4f2b97ce.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atomic+Age&family=Aubrey&family=Orbitron&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <title>Snake</title>
 </head>
 
 <body>
-  <h1>Sprottens erstes Spiel</h1>
-  
-  <div id="hilfe">
-  <h2>Tastaturbefehle</h2>  
+  <h1>Sprottens erstes Spiel</h1> <!--Überschrift-->
+   
+  <div id="hilfe"> <!--Tastaturbefehle-->
+  <h2>Tastaturbefehle:</h2> 
   <p<i class="fas fa-arrow-alt-circle-left"></i> = Links</p>
   <p<i class="fas fa-arrow-alt-circle-right"></i> = Rechts</p>
   <p<i class="fas fa-arrow-alt-circle-up"></i> = Oben</p>
   <p<i class="fas fa-arrow-alt-circle-down"></i> = Unten</p>
   </div>
+  <div id="spiel">
+  <button onclick="anfang()">Start button</button>  
+ 
   <canvas id="canvas" width="480" height="480"></canvas>
+  </div>
+
+  
 
 <script src="index.js"></script> <!--Verlinkung nach Javascript--> 
 
