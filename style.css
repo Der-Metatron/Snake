@@ -1,7 +1,8 @@
 body {background-color: bisque;
       background-image: url(./gears.jpeg); 
-       
-      display: grid;
+    /*  display: flex; */ 
+   
+     
      }
      
 /* Überschrift */
@@ -17,8 +18,17 @@ h1 {text-align: center;
 
     font-family: 'Orbitron', sans-serif;
     }
-/* Tastaturbelegung Farbe */
-#hilfe {color: chartreuse;}
+/* Tastaturbelegung */
+#hilfe {color: chartreuse;
+        text-align: right;
+        margin: 2rem;
+        padding: 3rem;
+       }
+
+/* Highscore */
+#highscore {color: chartreuse;
+           
+           }
 
 /* Button */
     button {
@@ -46,10 +56,20 @@ h1 {text-align: center;
         flex-direction: column;
         align-items: center;
         } 
-          
-#hilfe {text-align: right;
-        margin: 2rem;
-        padding: 3rem;}
 
 .canvas {border:solid 4rem; 
         border: solid 3px; color: rgb(255, 255, 255); /* Rahmen */}
+
+        #highscore {
+                display: flex;
+              }
+        
+              .hilfe {
+                flex: 1 1 auto;
+              }
+        
+              .highscore {
+                flex: 1 1 auto;
+              }
+        
+        
